@@ -38,10 +38,10 @@ var reversi = {
                         // 改回來
                         for(var c = 0; c < 8; c ++){
                             for(var r = 0; r < 8; r ++){  
-                                if(stones[r][c] == 6){
-                                    stones = 1;
-                                }else if(stones[r][c] == 7){
+                                if(stones[r][c] == 6){  //不可翻黑改回白
                                     stones = 2;
+                                }else if(stones[r][c] == 7){    //不可翻白改回黑
+                                    stones = 1;
                                 }
 
                             }
@@ -53,7 +53,7 @@ var reversi = {
                         for(var r = 0; r < 8; r ++){  
                             if(stones[r][c] == 6){  //待翻黑
                                 document.getElementById("div"+r+c).style.backgroundColor = 'black';
-                                stones = 1;
+                                stones = 1; //改回正常紀錄
                             }else if(stones[r][c] == 7){    //待翻白
                                 document.getElementById("div"+r+c).style.backgroundColor = 'white';
                                 stones = 2;
