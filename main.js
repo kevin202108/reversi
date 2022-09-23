@@ -71,9 +71,6 @@ let reversi = {
             }
         }
     },
-    updateBoard : function(){
-
-    },
     notValibleMove : function(){
 
     }
@@ -89,6 +86,3 @@ let reversi = {
 //     this.cInc2 = cInc2 + cInc;
    
 // }jhhj
-
-
-for(let a = 0; let b = 0;)
