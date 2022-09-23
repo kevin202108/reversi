@@ -55,10 +55,10 @@ let reversi = {
                     for(let c = 0; c < 8; c ++){
                         for(let r = 0; r < 8; r ++){  
                             if(stones[r+1][c+1] == 6){  //待翻黑
-                                document.getElementById("div"+r+c).style.backgroundColor = 'black';
+                                document.getElementById("stone"+r+c).style.backgroundColor = 'black';
                                 stones = 1; //改回正常紀錄
                             }else if(stones[r+1][c+1] == 7){    //待翻白
-                                document.getElementById("div"+r+c).style.backgroundColor = 'white';
+                                document.getElementById("stone"+r+c).style.backgroundColor = 'white';
                                 stones = 2;
                             }
                         }
