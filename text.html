@@ -7,7 +7,57 @@
     <title>reversi</title>
 </head>
 <style>
-    .board {
+    h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  table {
+    margin: auto;
+    border: solid 3px;
+    border-collapse: collapse;
+  }
+  table th,
+  table td {
+    width: 60px; height: 60px;
+    border: solid 3px #000;
+    text-align: center;
+  }
+  button {
+    background-color: rgb(182, 230, 200);
+    border: none;
+    color: white;
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    z-index:100;
+  }
+  /*button:hover {
+    background-color: #4CAF50;
+  } */
+  div{
+    float: left;
+    z-index:-100;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(182, 230, 200);
+  }
+  .btn33{
+    background-color: white;
+  }
+  .btn44{
+    background-color: white;
+  }
+  .btn34{
+    background-color: black;
+  }
+  .btn43{
+    background-color: black;
+  }
+    /* .board {
         width: 900px; height: 900px;
         border-collapse:collapse;
         border: 1px black;
@@ -29,7 +79,7 @@
         border-radius: 25px;
         background-color: black;
         text-align: center;
-    }
+    } */
 </style>
 <body>
     <h1 class="h1">reversi</h1>

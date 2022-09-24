@@ -75,6 +75,21 @@ let reversi = {
 
     }
 }
+
+reversi.init();
+
+function buttonOnClick(r,c){
+    reversi.move(r.c);
+}
+
+
+
+
+
+
+
+
+
 // while(r < 8 && c < 8 && this.stones[r+this.rInc2][c+this.cInc2] != this.stones[r][c]){
 //     // 持續延伸，直到找到同色的棋 
 //     // 一直翻，翻到翻錯再翻回來。
