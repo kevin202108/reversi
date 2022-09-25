@@ -18,7 +18,6 @@
   }
   table th,
   table td {
-    width: 1vw; height: 1vh;
     border: solid 3px #000;
     text-align: center;
   }
@@ -26,7 +25,7 @@
     background-color: rgb(182, 230, 200);
     border: none;
     color: black;
-    padding: 2vw 2vw;
+    padding: 5px 5px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -37,8 +36,8 @@
   .clear{
     margin: 5px;
     border: 1px rgb(0, 0, 0);
-    padding: 3vw 3vw;
-    border-radius: 3vw;
+    padding: 10px 10px;
+    border-radius: 5px;
   }
   /*button:hover {
     background-color: #4CAF50;
@@ -46,9 +45,9 @@
   div{
     float: left;
     z-index:-100;
-    width: 6vw;
-    height: 6vw;
-    border-radius: 3vw;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
     background-color: rgb(182, 230, 200);
   }
   .stone33{
